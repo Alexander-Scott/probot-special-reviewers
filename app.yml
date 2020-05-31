@@ -80,7 +80,7 @@ default_permissions:
   # pages: read
   # Pull requests and related comments, assignees, labels, milestones, and merges.
   # https://developer.github.com/v3/apps/permissions/#permission-on-pull-requests
-  # pull_requests: read
+  pull_requests: read
   # Manage the post-receive hooks for a repository.
   # https://developer.github.com/v3/apps/permissions/#permission-on-repository-hooks
   # repository_hooks: read
@@ -92,7 +92,7 @@ default_permissions:
   # vulnerability_alerts: read
   # Commit statuses.
   # https://developer.github.com/v3/apps/permissions/#permission-on-statuses
-  # statuses: read
+  statuses: write
   # Organization members and teams.
   # https://developer.github.com/v3/apps/permissions/#permission-on-members
   members: read
